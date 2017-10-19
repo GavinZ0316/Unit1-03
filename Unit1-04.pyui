@@ -1,0 +1,108 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {612, 564}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{64, 88}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{186, 242}, {150, 32}}",
+          "uuid" : "6A037B0F-81C4-4F64-A4E3-BB375D93FC9E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Radius",
+          "name" : "radius_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{64, 170}, {80, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{221, 242}, {80, 32}}",
+          "title" : "calulate",
+          "uuid" : "8A92A6F4-09D8-4CCC-A3A7-7928430222F4",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{275, 95}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{206, 266}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E48317D6-62D2-43D7-9892-626A8963CD74",
+          "alignment" : "left",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "radius_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{56, 274}, {150, 49}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{231, 266}, {150, 32}}",
+          "uuid" : "CD1DDE0B-208C-45A1-9FA1-04FB312A5A19",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "circumference",
+          "name" : "circumference_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{260, 274}, {200, 73}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{206, 266}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "A5F91E8E-74B6-440D-8A57-CDAEC7FA854E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "answer_label",
+          "font_size" : 17
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
